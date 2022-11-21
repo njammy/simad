@@ -1,0 +1,157 @@
+.about-us-img {
+    height: 20em;
+    border-radius: 0em 0em 5em 0em;
+}
+.about-us-img-rigth {
+    border-radius: 0em 0em 0em 5em;
+}
+.illustration-second-img{
+    height: 10em;
+}
+.about-us-section {
+    display: flex;
+    justify-content: center;
+    margin: 2em 0em;
+    flex-wrap: wrap;
+    row-gap: 2em;
+}
+.about-us-section-sub {
+    width: 85%;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    row-gap: 1em;
+    column-gap: 1em;
+}
+.about-us-sub {
+    display: flex;
+    column-gap: 1em;
+    /* background: #eec6c43b; */
+    background: white;
+    margin-left: 0em !important;
+    margin-right: 10em !important;
+    justify-content: space-between;
+    width: 70%;
+    box-shadow: 0px 20px 17px -10px rgba(235,226,235,1);
+    border-radius: 5em 0em 5em 0em;
+}
+.about-us-rigth{
+    text-align: right;
+    margin-left: 10em !important;
+    margin-right: 0em !important;
+    border-radius: 0em 5em 0em 5em;
+}
+.about-us-text{
+    font-size: 1.2em;
+    font-family: Jura;
+}
+.custom-h1 {
+    margin-block: 0em;
+    font-family: 'Candal';
+    font-size: 1.6em;
+    color: #dc512d;
+    margin-block-end: 0.6em;
+}
+.title-h5 {
+    margin-block-end: 0.2em;
+    font-family: 'Rubik';
+}
+.about-us-content {
+    padding: 2em;
+    width: 55%;
+}
+.illlustration-us-img {
+    height: 15em;
+    margin: 0em 1em;
+    border: 0.5em solid white;
+    filter: blur(1px) !important;
+    cursor: pointer;
+}
+.illlustration-us-img:hover {
+    filter: blur(0px) !important;
+}
+.illlustration {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background: #f9e20f;
+    padding: 2em 0em;
+}
+.illlustration-second{
+    width: 100%;
+    display: flex;
+    background: #dc512d26;
+    column-gap: 2em;
+}
+.illlustration-us-img-sub-seccond {
+    height: 25em;
+}
+.illlustration-second > :nth-child(2){
+    padding: 3em 0em;
+}
+.illlustration-second-sub {
+    display: block;
+    width: 15em;
+    margin: 0em 2em;
+    text-align: left;
+}
+.illlustration-second-sub > div {
+    margin-top: 0.5em;
+    font-family: Jura;
+    font-weight: bold;
+}
+.our-text-h1{
+    font-size: 1.2em !important;
+}
+.our-metrics-one {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    margin: 0em 4em;
+}
+.metrics-item {
+    text-align: center;
+    padding: 1em;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    color: #dc512d;
+    background: #f7f7ef;
+    border-left: 1px solid white;
+}
+.metrics-item > img {
+    height: 5em;
+}
+.metrics-title {
+    font-family: Candal;
+    font-size: 0.8em;
+}
+.metrics-item > h2 {
+    margin-block-end: 0em;
+    margin-block-start: 0em;
+}
+.our-metrics-one > :nth-child(1){
+    text-align: right;
+    color: black;
+    background: white;
+}
+.metrics-item > label {
+    margin-block-start: 1em;
+    font-family: Rubik;
+    font-size: 1.2em;
+}
+.metrics-title-sub {
+    font-size: 2em;
+    font-family: Candal;
+}
+.bg-wh{
+    background-color: white;
+}
+.bg-prim{
+    background-color: #b60700;
+}
+.text-color-wh{
+    color: white;
+}
+.text-color-prim{
+    color: #b60700;
+}

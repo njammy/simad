@@ -1,0 +1,37 @@
+.our-marque > div > img{
+    height: 10em;
+    border: 1px solid black;
+}
+.our-marque {
+    margin-top: 2em;
+}
+.our-marque > div{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    column-gap: 0.1em;
+    row-gap: 0.1em;
+}
+.expert-comm {
+    width: auto;
+    text-align: center;
+    padding: 1em;
+    background: white;
+}
+.expert-comm > p {
+    font-size: 0.8em;
+    text-align: justify !important;
+}
+.expert-comm > img {
+    height: 3em;
+    border-radius: 100%;
+}
+.our-expert {
+    background: #f9e20f;
+    padding: 2em;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+    overflow: hidden;
+    column-gap: 0.5em;
+}

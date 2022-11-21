@@ -1,0 +1,111 @@
+body {
+    display: block;
+    margin: 0px !important;
+}
+.navbar{
+    display: grid;
+    grid-template-columns: 15% 85%;
+}
+.navbar-logo-menu {
+    
+}
+.header-first {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    color: white;
+    margin: 0.8em;
+}
+.call {
+    /* display: flex;
+    align-items: center;
+    column-gap: 0.5em;
+    background: #c22902;
+    padding: 0em 0.8em;
+    box-shadow: 0px 0px 40px 6px rgb(255 255 255 / 37%);
+    color: white;
+    border: 2px solid;
+    height: 2.8em;
+    cursor: pointer;
+    margin-left: 1em; */
+
+    display: flex;
+    align-items: center;
+    -moz-column-gap: 0.5em;
+    column-gap: 0.5em;
+    background: #ffffff3b;
+    padding: 0.2em 0.8em;
+    color: white;
+    height: 2.8em;
+    cursor: pointer;
+    margin-left: 1em;
+    font-family: 'Rubik';
+    font-size: 0.9em;
+}
+.logo-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.menu-item-link {
+    color: white;
+    font-size: 1em;
+    font-family: Candal;
+}
+.social{
+    margin-top: 1em;
+}
+.menu-focus {
+    border-bottom: solid 0.2em white;
+}
+.social-link {
+    color: white;
+    margin: 1em 0.6em;
+}
+.slide-img{
+    width: 100%;
+}
+.navbar-menu{
+    text-align: end;
+    background: #c22902;
+}
+.navbar-menu-bloc{
+    display: flex;
+    justify-content: end;
+}
+.menu-list-typ{
+    list-style-type: none;
+    padding: 0.4em 0em;
+    margin: 0em 1em;
+}
+.menu-list-typ:hover{
+    border-bottom: solid 0.2em #0000005e
+}
+a{
+    text-decoration: none;
+}
+.fil-ariane{
+    background: #b60700;
+    padding: 2px;
+    color: white;
+}
+.fil-ariane-items {
+    display: flex;
+    column-gap: 2em;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    padding: 0.5em 4em;
+}
+.fil-ariane-item{
+    list-style-type: disclosure-closed;
+    font-family: Viga;
+    color: white;
+    font-size: 0.85em;
+}
+::marker {
+    color: #ffffff9c;
+}
+.flag-call {
+    height: 1.5em;
+    border: 0.2em solid white;
+}

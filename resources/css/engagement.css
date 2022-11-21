@@ -1,0 +1,59 @@
+.spec-engagement{
+    margin: 2em 5em;
+}
+.fj-spec{
+    width: auto;
+    margin:2em 0em ;
+    color: black !important;
+    background: #f9e20f !important;
+}
+.container{
+    display: flex;
+    justify-content:center;
+}
+.container-grid{
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+}
+.metrics-up-spec {
+    color: black;
+    background: #f9e20f;
+}
+.our-engagement {
+    /* width: 80%; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 1em;
+    row-gap: 1em;
+    flex-wrap: wrap;
+}
+.engagement-item > img {
+    width: inherit;
+}
+.engagement-item {
+    width: 20em;
+    background: #f9e20f;
+}
+.engagement-text > h4 {
+    font-weight: bold;
+    font-size: 1.2em;
+    margin-block: 0em;
+    font-family: Candal;
+    text-decoration: underline;
+    margin-block-end: 0.6em;
+    cursor: pointer;
+}
+.engagement-text {
+    font-family: Jura;
+    padding: 0.8em;
+}
+.custom-our-engagement > h4{
+    text-align: center;
+    font-size: 2em;
+}
+.custom-our-engagement{
+    margin: 1em 2em;
+    font-size: 1.4em;
+    text-align: justify;
+}
